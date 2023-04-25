@@ -1,0 +1,113 @@
+.mynav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.mynav ul li {
+    display: inline;
+    padding: 30px;
+}
+.mynav ul li a {
+    padding: 30x 30px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: blue;
+}
+.mynav {
+    background-color: lightgrey;
+        height: 40px;
+    font-family: roboto;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    border: 3px solid green;
+    padding: 10px;
+}
+    .mynav:hover{ 
+        cursor: pointer;
+    background-color: #ff004f;
+}
+
+
+.footer{
+    font-size: larger;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+#services{
+    padding: 30px 0;
+
+}
+
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+
+}
+
+
+.services-list div{
+    background: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform o.5s;
+}
+
+
+.services-list div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+
+}
+
+
+.services-list div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+
+.services-list div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+.services-list div:hover{
+    background: #ff004f;
+    transform: translateY(-10px);
+}
+
+.page{
+    text-align: center;
+}
+
+body{
+    background-color: green;
+}
+
+
+    
+
+
+
+    
+
+
+
+
+
